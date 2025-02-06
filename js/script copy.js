@@ -70,8 +70,6 @@ console.log('Embla initialized:', embla);
     })();
 });
 
-$('.pdf-viewport').turn();
-
 document.addEventListener('DOMContentLoaded', () => {
 const modal = document.getElementById('tn-flipbook-modal');
 const closeBtn = document.querySelector('.tn-modal-close');
