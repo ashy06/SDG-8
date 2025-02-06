@@ -135,7 +135,7 @@ showPage(0);
 });
 
 $(document).ready(function() {
-    const pdfUrl = 'file/SDG-8.pdf'; // Update with your PDF path
+    const pdfUrl = 'SDG-8.pdf'; // Update with your PDF path
     let pdfDoc = null;
     let currentPage = 1;
     let scale = 1.0;
