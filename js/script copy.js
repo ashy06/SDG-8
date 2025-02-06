@@ -219,6 +219,30 @@ $(document).ready(function() {
     const overlay = $('.sdg-flipbook-overlay');
     const flipbookContainer = $('.sdg-flipbook-container');
 
+    // Initialize Turn.js for flipping effect
+            function initFlipbook() {
+                const flipbook = $('#pdf-container').turn({
+                    width: 900,
+                    height: 600,
+                    autoCenter: true,
+                    display: 'double',
+                    duration: 750,
+                    when: {
+                        turning: function(e, page) {
+                            $('.turn-page').css('box-shadow', '-25px 0 40px rgba(0,0,0,0.15)');
+                        },
+                        turned: function(e, page) {
+                            $('.turn-page').css('box-shadow', 'none');
+                        }
+                    }
+                });
+            }
+
+            // Call initFlipbook after rendering the first page
+            $('.sdg-cta__button').on('click', function() {
+                initFlipbook();
+            });
+
     $('.sdg-cta__button').on('click', function(e) {
         e.preventDefault();
         overlay.fadeIn(200);
