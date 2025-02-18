@@ -4,6 +4,8 @@
 
 This project explores aspects of Sustainable Development Goal 8: Decent Work and Economic Growth.  It leverages HTML, CSS, JavaScript, and potentially other libraries (based on the presence of `jquery.js` and `turn.js`) to present information related to SDG 8.  The project includes visual elements (images and charts) and potentially interactive components.
 
+https://ashy06.github.io/SDG-8/
+
 ## Features
 
 * **Interactive Presentation:** Uses HTML, CSS, and JavaScript for an interactive user experience.  The inclusion of `turn.js` suggests the possibility of a page-turning or book-like interface.
