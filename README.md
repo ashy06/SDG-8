@@ -25,3 +25,4 @@ This project does not appear to use any environment managers (like conda or virt
 
 1. **Open in Browser:** Open `index.html` in a modern web browser (Chrome, Firefox, Safari, Edge).
 2. **Interact:** Explore the interactive elements of the project as designed. The specific functionality will depend on the implemented JavaScript code.
+3. **Navigate:** Join Us section below contact reveals a pdf book to read about the contents. In header, TamilNadu navigator also references to the latter section.
